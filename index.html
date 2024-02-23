@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>MLB Survey</title>
+</head>
+<body>
+  <h1 id="title">MLB Fan Survey</h1>
+  <p id="description">
+    Please enjoy this survey form!</p>
+    <p id="port-link">Thank you for your support! See my other projects at <a href="https://github.com/bobmarconi22" target="_blank">My GitHub!</a></p>
+  </p>
+  <form action="" id="survey-form" class="survey-form">
+    <label for="name" id="name-label">Name</label
+    ><input type="text" id="name" placeholder="Enter your name here" required />
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" placeholder="Email" required />
+    <label for="number" id="number-label">Number (optional)</label>
+    <input
+      type="number"
+      id="number"
+      min="0000000001"
+      max="9999999999"
+      placeholder="Number"
+    />
+    <label for="drowdown" id="drop-label">Who Is Your Favorite Team?</label>
+    <select name="dropdown" id="dropdown">
+      <option value="" hidden> -- select a team --</option>
+      <option value="ari">Arizona Diamondbacks</option>
+      <option value="atl">Atlanta Braves</option>
+      <option value="bal">Baltimore Orioles</option>
+      <option value="bos">Boston Red Sox</option>
+      <option value="cws">Chicago White Sox</option>
+      <option value="chi">Chicago Cubs</option>
+      <option value="cin">Cincinnati Reds</option>
+      <option value="cle">Cleveland Guardians</option>
+      <option value="col">Colorado Rockies</option>
+      <option value="det">Detroit Tigers</option>
+      <option value="hou">Houston Astros</option>
+      <option value="kc">Kansas City Royals</option>
+      <option value="laa">Los Angeles Angels</option>
+      <option value="lad">Los Angeles Dodgers</option>
+      <option value="mia">Miami Marlins</option>
+      <option value="mil">Milwaukee Brewers</option>
+      <option value="min">Minnesota Twins</option>
+      <option value="nym">New York Mets</option>
+      <option value="nyy">New York Yankees</option>
+      <option value="oak">Oakland Athletics</option>
+      <option value="phi">Philadelphia Phillies</option>
+      <option value="pitt">Pittsburgh Pirates</option>
+      <option value="sd">San Diego Padres</option>
+      <option value="sf">San Francisco Giants</option>
+      <option value="sea">Seattle Mariners</option>
+      <option value="stl">St. Louis Cardinals</option>
+      <option value="tb">Tampa Bay Rays</option>
+      <option value="tex">Texas Rangers</option>
+      <option value="tor">Toronto Blue Jays</option>
+      <option value="wsh">Washington Nationals</option>
+    </select>
+
+    <div id="rad-div">
+      <p>Have you always been a fan of this team?</p>
+    <p><input type="radio" id="rad" name="radio" value="y" /> Yes</p>
+    <p><input type="radio" id="rad" name="radio" value="n" /> No</p>
+    </div>
+    <div id="checkbox-div">
+      <p>How are you feeling about this upcoming season? (select all that apply)</p>
+    <p><input type="checkbox" id="exc" value="exc" />Excited</p>
+    <p><input type="checkbox" id="exc" value="hope" />Hopeful</p>
+    <p><input type="checkbox" id="exc" value="ind" />Indifferent</p>
+    <p><input type="checkbox" id="exc" value="nerv" />Nervous</p>
+    <p><input type="checkbox" id="exc" value="ang" />Angry</p>
+    <p><input type="checkbox" id="worr" value="worr" />Worried</p>
+  </div>
+    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Use this space to write your comments on your teams offseason."></textarea
+    >
+    <input type="submit" id="submit">
+  </form>
+</body>
+</html>

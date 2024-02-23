@@ -1,0 +1,109 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/00/42/01/41/240_F_42014191_IY4URN6n8TEJPMpiwI6TDJvEdGQhSwJb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#title{
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 0.8em;
+    color: white;
+    text-transform: uppercase;
+}
+
+#description, #port-link{
+    font-size: 13px;
+    text-align: center;
+    margin: .25em;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: rgb(157, 17, 17);
+}
+
+a:visited{
+    color: rgb(157, 17, 17);
+}
+
+a:hover{
+    color: black;
+}
+
+form{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 5px;
+    padding: 2em;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+*:placeholder-shown{
+    color: grey;
+}
+
+#name, #email, #number, #dropdown{
+    display: flex;
+    width: 100%;
+    border: 2px solid rgb(68, 65, 65);
+    border-radius: 5px;
+    padding: 6px;
+}
+
+#name-label, #email-label, #number-label, #drop-label{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    align-items: end;
+}
+option:first{
+    color: grey;
+}
+
+#rad-div{
+    display: inline;
+    flex-direction: column;
+    width: 100%;
+    padding: 1em 0;
+    align-content: left;
+}
+
+#rad-label{
+    color: white;
+}
+
+textarea{
+    color: black;
+}
+
+#submit{
+    padding: 6px;
+    font-size: 15px;
+    background-color: rgb(12, 172, 12);
+    border: 1px solid rgb(12, 172, 12);
+    border-radius: 6px;
+    margin-top: 6px;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+}
+
+#submit:hover{
+    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.7);
+    background-color: rgb(12, 172, 12);
+    border: 1px solid rgb(12, 172, 12);
+}
