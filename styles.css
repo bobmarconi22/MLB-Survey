@@ -9,6 +9,8 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 #title{
